@@ -1,0 +1,35 @@
+.root {
+  -fx-background: #333333;
+  -fx-text-fill: -text-dark;
+  -fx-prompt-text-fill: rgba(255,255,255,.3);
+  -fx-font-family: 'Century Gothic sans serif';
+  -text-disabled: -text-disabled-dark;
+  -background-disabled:rgba(255,255,255,.12);
+  -background-fill: -text-dark;
+}
+
+.text-field
+{
+	-fx-text-fill: -text-dark;
+}
+.popup-view
+{
+	-fx-background: #ffffff;
+}
+.scroll-pane
+{
+	-fx-text-fill: -text-dark;
+}
+#SpellName
+{
+	-fx-font-size: 18pt;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-border-color: #333333 #333333 #c0c0c0 #333333;
+	-fx-border-width: 2;
+}
+#results
+{
+	-fx-font-size: 14pt;
+	-fx-fill: -text-dark;
+}
